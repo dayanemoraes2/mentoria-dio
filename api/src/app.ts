@@ -49,5 +49,5 @@ app.use((error: any, req: Request, res: Response, _: NextFunction) => {
 });
 
 app.listen(8000, () => {
-    console.log('Servidor ouvindo na porta 8000...')
+    console.log('Servidor ouvindo na porta 8000... ')
 });
